@@ -1,0 +1,22 @@
+<section style="padding:var(--space-24) 0;background:var(--gray-50);">
+  <div class="container container-lg">
+    <div class="about-grid">
+      <div>
+        <div class="badge badge-soft-primary about-badge">Pour les développeurs</div>
+        <h2 style="font-family:var(--font-display);font-size:var(--text-4xl);font-weight:800;color:var(--gray-900);margin-bottom:var(--space-6);">Une API simple et puissante</h2>
+        <p style="color:var(--gray-600);line-height:1.8;margin-bottom:var(--space-6);">Intégrez [siteName] directement dans vos applications grâce à notre API REST complète et documentée.</p>
+        <a href="#" class="btn btn-dark">Voir la documentation</a>
+      </div>
+      <div class="saas-code-block">
+<span class="code-comment">// Récupérer la liste des projets</span>
+<span class="code-keyword">const</span> response = <span class="code-keyword">await</span> fetch(<span class="code-string">'https://api.[domain]/v1/projects'</span>, {
+  <span class="code-key">headers</span>: {
+    <span class="code-key">Authorization</span>: <span class="code-string">'Bearer VOTRE_CLE_API'</span>
+  }
+});
+<span class="code-keyword">const</span> data = <span class="code-keyword">await</span> response.json();
+<span class="code-comment">// → { projects: [...], total: 24 }</span>
+      </div>
+    </div>
+  </div>
+</section>
